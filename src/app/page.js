@@ -5,10 +5,10 @@ export async function generateMetadata({ params, searchParams }, parent) {
 
   const fcMetadata = {
     "fc:frame": "vNext",
-    "fc:frame:post_url": `https://rizzcheck.xyz`,
+    "fc:frame:post_url": `https://touchsomegrass-one.vercel.app/`,
     "fc:frame:image": `https://utfs.io/f/de30555a-de08-4403-9e16-0f9cbec82588-idppxz.avif`,
     "fc:frame:author": "boredhead",
-    "fc:frame:button": "Touch Grass",
+    "fc:frame:button:1": "Touch Grass",
   };
 
   return {
@@ -16,12 +16,12 @@ export async function generateMetadata({ params, searchParams }, parent) {
     openGraph: {
       title: "touch some Grass",
       images:
-        "https://utfs.io/f/de30555a-de08-4403-9e16-0f9cbec82588-idppxz.avif",
+        "https://utfs.io/f/67e1b776-f49d-41c8-b2f9-b10447bc9a38-avx0bg.webp",
     },
     other: {
       ...fcMetadata,
     },
-    metadataBase: new URL("https://touchsomegrass.vercel.app"),
+    metadataBase: new URL("https://touchsomegrass-one.vercel.app/"),
   };
 }
 
